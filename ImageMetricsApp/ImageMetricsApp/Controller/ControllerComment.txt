@@ -1,0 +1,12 @@
+﻿Controllers MUST power the logic and actions behind the interface. 
+
+Controller must be unitary in nature. 
+
+Application logic is unitary to business logic. Business logic should be able to mix and match variety of application lgoic. 
+
+Controller interface/implementation must be unitary to application logic allowing very small amount of code being written in the application logic layer. 
+
+Controller interface must be numerous and diverse to avoid ONE HUGE M***F**** large fat controller that cannot be tweaked easily. 
+Controller should use T template generic type
+Controller should entirely depend on the information application logic layer pass to it. 
+Controller should not read/interact with other controllers. 
